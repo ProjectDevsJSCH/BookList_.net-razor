@@ -1,0 +1,57 @@
+﻿@page
+@model BookListRazor.Pages.BookList.UpsertModel
+
+
+<br />
+<h2 class="text-info">@(Model.Book_element.Id != 0 ? "Edit" : "Create") Book</h2>
+<br />
+
+<div class="border container" style="padding:30px;">
+    <form method="post">
+        @if (Model.Book_element.Id != 0)
+        {
+            <input type="hidden" asp-for="Book_element.Id" />
+        }
+        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+        <div class="form-group row">
+            <div class="col-4">
+                <label asp-for="Book_element.Name"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Book_element.Name" class="form-control" />
+            </div>
+            <span asp-validation-for="Book_element.Name" class="text-danger col-6 offset-4"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-4">
+                <label asp-for="Book_element.Author"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Book_element.Author" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-4">
+                <label asp-for="Book_element.ISBN"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Book_element.ISBN" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3 offset-4">
+                <button type="submit" class="btn btn-primary form-control">@(Model.Book_element.Id != 0 ? "Update" : "Create")</button>
+            </div>
+            <div class="col-3">
+                <a asp-page="Index" class="btn btn-success form-control">Back to List</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+@*Para realizar las validaciones en el lado del cliente. Evita ir al post a verificar si los datos ingresados estan bien*@
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
+
+

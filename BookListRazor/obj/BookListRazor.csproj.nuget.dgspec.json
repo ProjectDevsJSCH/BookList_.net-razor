@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Trainers\\source\\repos\\BookListRazor\\BookListRazor\\BookListRazor.csproj": {}
+    "C:\\Users\\juan.castelblanco\\source\\repos\\bookList_.net-razor\\BookListRazor\\BookListRazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Trainers\\source\\repos\\BookListRazor\\BookListRazor\\BookListRazor.csproj": {
+    "C:\\Users\\juan.castelblanco\\source\\repos\\bookList_.net-razor\\BookListRazor\\BookListRazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Trainers\\source\\repos\\BookListRazor\\BookListRazor\\BookListRazor.csproj",
+        "projectUniqueName": "C:\\Users\\juan.castelblanco\\source\\repos\\bookList_.net-razor\\BookListRazor\\BookListRazor.csproj",
         "projectName": "BookListRazor",
-        "projectPath": "C:\\Users\\Trainers\\source\\repos\\BookListRazor\\BookListRazor\\BookListRazor.csproj",
-        "packagesPath": "C:\\Users\\Trainers\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Trainers\\source\\repos\\BookListRazor\\BookListRazor\\obj\\",
+        "projectPath": "C:\\Users\\juan.castelblanco\\source\\repos\\bookList_.net-razor\\BookListRazor\\BookListRazor.csproj",
+        "packagesPath": "C:\\Users\\juan.castelblanco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juan.castelblanco\\source\\repos\\bookList_.net-razor\\BookListRazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Trainers\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juan.castelblanco\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

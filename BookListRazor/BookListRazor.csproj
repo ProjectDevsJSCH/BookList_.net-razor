@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20200312203955_AddBookToDb.cs" />
+    <Compile Remove="Migrations\20200312203955_AddBookToDb.Designer.cs" />
+    <Compile Remove="Migrations\20200312210142_AddISBNToBook.cs" />
+    <Compile Remove="Migrations\20200312210142_AddISBNToBook.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.2" />
